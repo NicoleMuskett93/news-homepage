@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0
+}
+body{
+    font-family: 'Inter', sans-serif;
+    padding: 50px;
+}
+
+
+a {
+    color: hsl(236, 13%, 42%);
+    text-decoration: none;
+    font-size: 15px;
+   
+}
+.container {
+    margin: 0 auto;
+    max-width: 1200px;
+    overflow: visible;
+}
+
+.navbar {
+    height: 70px;
+    padding: 0 30px;
+}
+
+.navbar li {
+    margin: 0 15px;
+    line-height: 1.2;
+    list-style-type: none;
+    
+}
+
+.navbar .flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.navbar ul {
+    display: flex;
+}
