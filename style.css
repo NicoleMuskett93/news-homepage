@@ -43,3 +43,8 @@ a {
 .navbar ul {
     display: flex;
 }
+
+.navbar a:hover {
+    color:hsl(5, 85%, 63%);
+
+}
